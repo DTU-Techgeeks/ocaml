@@ -209,6 +209,7 @@ module Options = Main_args.Make_optcomp_options (struct
     set dump_flambda ();
     set dump_flambda_verbose ()
   let _dflambda_no_invariants = clear flambda_invariant_checks
+  let _dcmm_invariants = set cmm_invariants
   let _dcmm = set dump_cmm
   let _dsel = set dump_selection
   let _dcombine = set dump_combine
