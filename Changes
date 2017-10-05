@@ -22,6 +22,10 @@ be mentioned in the 4.06 section below instead of here.)
 
 ### Code generation and optimizations:
 
+- GPR#1400: Add an optional invariants check on Cmm, which can be activated
+  with the -dcmm-invariants flag
+  (Vincent Laviron)
+
 ### Runtime system:
 
 ### Tools:
